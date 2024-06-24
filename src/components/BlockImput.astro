@@ -5,7 +5,7 @@ interface Props {
 }
 const { text, aria } = Astro.props;
 ---
-<textarea placeholder={text} title={text} aria-label={aria} class="inline"/>
+<textarea placeholder={text} title={text} aria-label={aria} name={text} class="inline"/>
 <style>
     .inline {
         padding: var(--sp-100);
